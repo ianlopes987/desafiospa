@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/im1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    padding: 40px 72px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+nav li {
+    color: #C4C4CC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.667px;
+}
+
+a{
+    text-decoration:none; 
+    color: #C4C4CC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.667px;
+}
+
+
+
+nav li a:hover{
+    color: #ffffff;
+}
+
+#home main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 172px;
+}
+
+#home main h1 {
+    color: #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#home main button {
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid #FFF;
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    text-transform: uppercase;
+}
+
+#universo main, #exploracao main{
+    margin-top: 63px;
+    margin-left: 102px;
+}
+
+#universo h1, #exploracao h1 {
+    color: #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 60px */
+}
+
+#universo p , #exploracao p {
+    margin-top: 16px;
+    color:  #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    width: 648px;
+}
+
+
+
+
+
